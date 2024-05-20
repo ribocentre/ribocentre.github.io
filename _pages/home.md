@@ -12,7 +12,7 @@ permalink: /
 
 <div class="well" style="border: 1px solid #C9C9C9; background-color: #fff;">
 
-<h3><strong> Welcome to Ribocentre</strong></h3>
+<!--h3><strong> Welcome to Ribocentre</strong></h3-->
 
 <strong style="color:#0874c4;font-weight: bold">Ribocentre</strong> is designed to contain comprehensive information of all natural ribozymes. Ribozymes are good systems for understanding the 'sequence - structure - function' relationship of RNA molecules, since ribozymes are found in the genomes of species from all kingdoms of life and play a role in important reactions such as peptide-bond formation, RNA splicing, transfer RNA biosynthesis, and viral replication. This is therefore an excellent time to summarise these properties, and our new web-based database will make this generally accessible.<br>
 
