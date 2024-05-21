@@ -28,28 +28,6 @@ Zhichao Miao, and Lin Huang<br>
 <a href="https://academic.oup.com/nar/article/51/D1/D262/6731740" target="_blank">Nucleic Acids Research, gkac840, https://doi.org/10.1093/nar/gkac840<a>
 </div><br>
 
-  <!--div class="well">
-<div style="text-align:center;"><font size="5"> Search in Ribocentre </font></div>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
-</head>
-<style type="text/css">
-</style>
-<script async src="https://cse.google.com/cse.js?cx=2dcb771063bc36a13"></script>
-<div class="gcse-searchbox-only" style="text-align:center;"></div>
-  <p><b>Example:&nbsp;</b>
-    <a href="https://www.ribocentre.org/search.html?q=rna#gsc.tab=0&gsc.q=rna&gsc.page=1"  target="_blank">RNA</a>&nbsp;&nbsp;
-    <a href="https://www.ribocentre.org/search.html?q=Ribo#gsc.tab=0&gsc.q=Ribo&gsc.page=1"  target="_blank">Ribo</a>&nbsp;&nbsp;
-    <a href="https://www.ribocentre.org/search.html?q=breaker#gsc.tab=0&gsc.q=breaker&gsc.page=1"  target="_blank">Breaker</a>&nbsp;&nbsp;<br>
-    <b>Quick links:&nbsp;</b>
-    <a href="https://www.ribocentre.org/ribozyme">Ribozymes</a>&nbsp;&nbsp;
-    <a href="https://www.ribocentre.org/publications">Publications</a>&nbsp;&nbsp;
-    <a href="https://www.ribocentre.org/docs/VS-ribozyme.html" target="_blank"> VS with 3D structures</a>&nbsp;&nbsp;
-    <a href="https://www.ribocentre.org/Helps">Teams</a>&nbsp;&nbsp;
-  </p>
-</div>
-<br-->
 
 The following content of ribozymes information is adapted from [Wikipedia](https://en.wikipedia.org/).<br>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><br>
