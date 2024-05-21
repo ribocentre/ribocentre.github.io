@@ -128,7 +128,7 @@ p {
 <button class="tablink" onclick="openPage('Contact', this, 'white')"><font size="4">Activities</font></button>
 <button class="tablink" onclick="openPage('About', this, 'white')"><font size="4">And More</font></button>
 <div class="pic"></div>
-<div id="Home" class="tabcontent" style="width: 100%;height: 600px; overflow-x:hidden;overflow-y: auto;">
+<div id="Home" class="tabcontent" style="width: 100%;height: 800px; overflow-x:hidden;overflow-y: auto;">
   
   <h5><b>Discovery</b></h5>
   <p>Ribozymes (ribonucleic acid enzymes) are RNA molecules that have the ability to catalyze specific biochemical reactions, including RNA splicing in gene expression, similar to the action of protein enzymes. The 1982 discovery of ribozymes demonstrated that RNA can be both genetic material (like DNA) and a biological catalyst (like protein enzymes), and contributed to the RNA world hypothesis, which suggests that RNA may have been important in the evolution of prebiotic self-replicating systems<sup>[1]</sup>. The most common activities of natural or in vitro-evolved ribozymes are the cleavage or ligation of RNA and DNA and peptide bond formation<sup>[2]</sup>. For example, the ribozyme that carries out a complex group transfer is the sequence GUGGC-3′, acting to aminoacylate GCCU-3′ (and host a manifold of further reactions) in the presence of substrate PheAMP<sup>[3]</sup>. Within the ribosome, ribozymes function as part of the large subunit ribosomal RNA to link amino acids during protein synthesis. They also participate in a variety of RNA processing reactions, including RNA splicing, viral replication, and transfer RNA biosynthesis. Examples of ribozymes include the hammerhead ribozyme, the VS ribozyme, Leadzyme and the hairpin ribozyme.<br>
