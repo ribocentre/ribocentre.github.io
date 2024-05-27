@@ -22,9 +22,7 @@ The small ribozymes also called nucleolytic ribozymes, which are a group of rela
     <style>
 	    body {
 			font-size: 14px;
-			margin: 50px 30px;
-            padding-top: 10px;
-      }
+			}/* margin: 50px 30px;padding-top: 10px; */
 		  table {
         border: 2px solid #f8f8ff;
         border: 2px solid #767676;
