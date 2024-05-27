@@ -99,7 +99,7 @@ The small ribozymes also called nucleolytic ribozymes, which are a group of rela
                <a href="https://rfam.org/family/RF03152" target="_blank"><b>RF03152</b></a></td>
             </tr>
             <tr>
- <td name="td0"><a href="https://www.ribocentre.org/docs/HDV.html" target="_blank"><b>HDV</b></a> </td>
+ <td name="td0"><a href="https://www.ribocentre.org/_posts/2022-06-19-HDV" target="_blank"><b>HDV</b></a> </td>
  <td name="td1">The hepatitis delta virus (HDV) ribozyme is a viral-derived small ribozyme that catalyzes the site‐specific self‐cleavage reaction. These RNAs fold into a double-nested pseudoknot structure.</td>
  <td name="td2"><a href="https://www.ncbi.nlm.nih.gov/pubmed/3184270" target="_blank"><b>1988</b></a></td>
  <td name="td3">Hepatitis delta virus ribozyme</td>
