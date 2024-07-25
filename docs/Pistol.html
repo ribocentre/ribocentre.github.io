@@ -19,7 +19,7 @@
 
   <body>
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!--div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <style>
         /* Modify the background color https://www.color-hex.com/color-palette/1011604 */
         .navbar {
@@ -50,8 +50,6 @@
 	
     <a class="navbar-brand" href="https://www.ribocentre.org/">
 		
-		<!--<img class="navbar-brand" src="http://localhost:4000/images/Ribo_centre_logo.jpg" style='height:50px;margin-top:-14px;margin-bottom:0;padding:0;' alt="logo">
-		Ribocentre @ Bio island-->
 		<img class="navbar-brand" src="https://www.ribocentre.org/images/Ribo_centre_logo.jpg" style='height:50px;margin-top:-14px;margin-bottom:0;padding:0;' alt="logo">
 		&nbsp;Ribocentre 
 	</a>
@@ -69,7 +67,231 @@
 	  </ul>
 	</div>
   </div>
-</div>
+</div-->
+
+<style>
+  .full-width-image {
+	  width: 100%;
+	  height: 350px;
+	  overflow: hidden;
+	  border-radius: 0;
+	  margin-top: 0;
+	  margin-bottom: 0;
+	  position: relative;
+	  background: url(../../images/homepicture.jpg) no-repeat;
+	  background-size: cover; 
+	  background-position: center; 
+  }
+  
+  .full-width-image img {
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	  object-position: center
+  }
+  
+  .search-box {
+	  height: 100%;
+	  width: 70%;
+	  margin: 0 auto;
+	  display: flex;
+	  align-items: center
+  }
+  
+  .search {
+	  padding-top: 0px;
+	  padding-bottom: 0px; 
+	  padding-left: 20px; 
+	  padding-right: 20px;
+	  background: #fff;
+	  position: absolute;
+  }
+  
+  .search h2 {
+	  font-size: 20px
+  }
+  
+  .search .i {
+	  display: flex;
+	  align-items: center
+  }
+  
+  .search .i img {
+	  width: 70px;
+	  height: 50px;
+	  object-fit: contain
+  }
+  
+  .search .i h1 {
+	  font-size: 28px;
+	  font-weight: 700;
+	  margin-left: 10px
+  }
+  
+  .search .tip {
+	  font-size: 14px;
+	  margin-top: 10px
+  }
+  
+  .searchInput {
+	  margin-top: 10px;
+	  width: 450px;
+	  height: 32px;
+	  display: flex
+  }
+  
+  .searchInput input {
+	  flex: 1;
+	  height: 100%;
+	  line-height: 32px;
+	  border: 1px solid #868686;
+	  outline: 0;
+	  border-radius: 7px;
+	  padding: 0 10px
+  }
+  
+  .gsc-control {
+	width: 300px;
+  }
+  
+  .gsc-control div {
+	position: static;
+  }
+  
+  /* Slight reset to make the preview have ample padding. */
+  .gsc-control-cse {
+	padding: 1em;
+  }
+  
+  .gsc-control-cse,
+  .gsc-control-cse .gsc-table-result {
+	width: auto;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+  }
+  
+  .gsc-control-wrapper-cse {
+	width: 600px;
+  }
+  .gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus {
+	  border-color: #158CBA;
+	  background-color: #158CBA;
+	  background-image: none;
+	  filter: none;
+  }
+  
+  .gsc-control-cse, .gsc-control-cse .gsc-table-result {
+	  width: auto;
+	  font-family: Arial, sans-serif;
+	  font-size: 1px;
+  }
+  .gsc-input {
+	  font-size: 16px;
+	  color: #000000;
+  }
+  .col-sm-4 {
+    padding-left: 0px;
+    padding-right: 26px;
+}
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+    border-color: #ffffff;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+img {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 2%;
+}
+  </style>
+
+
+<div class="navbar-expand-lg navbar-dark" style='background-color: #333333; border-radius: 0; margin-bottom: 0; border: 0; height: 30px;' role="navigation">
+	<div class="container-fluid" style='height: 30px; max-width: 1000px;'>
+		<ul class="nav navbar-nav navbar-right" style='height: 30px;'>
+		  <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://www.gznl.org/">
+			  <img src="https://www.ribocentre.org/images/header/home.svg" style='height: 20px; width: auto; margin: 0;'>
+			  Home</a></li>
+		  <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://www.gznl.org/database/">
+			  <img src="https://www.ribocentre.org/images/header/database.svg" style='height: 20px; width: auto; margin: 0;'>
+			  Database</a></li>
+		  <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://www.gznl.org/research/">
+			  <img src="https://www.ribocentre.org/images/header/research.svg" style='height: 20px; width: auto; margin: 0;'>
+			  Research</a></li>
+		  <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://www.gznl.org/aboutus/">
+			  <img src="https://www.ribocentre.org/images/header/aboutus.svg" style='height: 20px; width: auto; margin: 0;'>
+			  About us</a></li>
+		  <li><a style='display: inline; padding: 15px 15px 5px 5px; line-height: 30px;' class="nav-link-0" href="https://gzlab.ac.cn/">
+			  GZNL-RDC
+			  <img src="https://www.ribocentre.org/images/header/gznl2.svg" style='height: 20px; width: auto; margin: 0;'>
+			  </a></li>
+		</ul>
+	</div>
+  </div>
+
+
+  <div class="full-width-image">
+    <div class="search-box">
+      <div class="search">
+      <h2>GZNL's Respiratory Data Centre, GZNL-RDC</h2>
+      <div class="i"><img src="https://www.ribocentre.org/images/ribocentre.svg">
+        <h1>Ribocentre</h1>
+      </div>
+      <p>A database of ribozymes</p>
+      <script async src="https://cse.google.com/cse.js?cx=2dcb771063bc36a13"></script>
+      
+        <div class="gcse-search"></div>
+      <p>Example:
+      <a href="https://www.ribocentre.org/search.html?q=rna#gsc.tab=0&gsc.q=rna&gsc.page=1"  target="_blank">RNA</a>&nbsp;&nbsp;
+      <a href="https://www.ribocentre.org/search.html?q=Ribo#gsc.tab=0&gsc.q=Ribo&gsc.page=1"  target="_blank">Ribo</a>&nbsp;&nbsp;
+      <a href="https://www.ribocentre.org/search.html?q=breaker#gsc.tab=0&gsc.q=breaker&gsc.page=1"  target="_blank">Breaker</a>&nbsp;&nbsp;
+      <a href="https://www.ribocentre.org/ribozyme">Ribozymes</a>&nbsp;&nbsp;
+      <a href="https://www.ribocentre.org/publications">Publications</a>&nbsp;&nbsp;
+      <a href="https://www.ribocentre.org/docs/VS-ribozyme.html" target="_blank"> VS with 3D structures</a>&nbsp;&nbsp;
+      <a href="https://www.ribocentre.org/Helps">Teams</a>&nbsp;&nbsp;
+      </p>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="navbar navbar-expand-lg navbar-dark bg-primary" style='border-radius: 0; border: 0;' role="navigation">
+  
+      <div class="container-fluid" style='max-width: 75%;'>
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a class="navbar-brand" href="https://www.ribocentre.org">
+          
+          <img class="navbar-brand" src="https://www.ribocentre.org/images/ribocentre-logo.svg" style='height:50px;margin-top:-14px;margin-bottom:0;padding:2px 2px;border-radius: 0;' alt="logo">
+          <!--b style='font-size: 32px; color: #eeeeee;'>Ribocentre</b-->
+        </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="nav-link-1" href="https://www.ribocentre.org/" style="font-size: 20px">Home</a></li>
+          <li><a class="nav-link-1" href="https://www.ribocentre.org/ribozyme" style="font-size: 20px">Ribozymes</a></li>
+          <li><a class="nav-link-1" href="https://www.ribocentre.org/sequence" style="font-size: 20px">Sequences</a></li>
+          <li><a class="nav-link-1" href="https://www.ribocentre.org/structure" style="font-size: 20px">Structures</a></li>
+          <li><a class="nav-link-1" href="https://www.ribocentre.org/catalysis" style="font-size: 20px">Catalysis</a></li>
+          <li><a class="nav-link-1" href="https://www.ribocentre.org/application" style="font-size: 20px">Applications</a></li>
+          <li><a class="nav-link-1" href="https://www.ribocentre.org/publications" style="font-size: 20px">Publications</a></li>
+          <li><a class="nav-link-1" href="https://www.ribocentre.org/Helps" style="font-size: 20px">Help</a></li>
+        </ul>
+        </div>
+      </div>
+      </div>
+
+
+
+
 
 
     <div class="container-fluid">
@@ -659,45 +881,43 @@ Ekesan, S. and D. M. York <br />
     </div>
 
     <div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-	  <div class="row">
-		<div class="col-sm-4">
-			
-		  <p>&copy 2022 Ribocentre. Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="https://www.ribocentre.org/aboutwebsite.html">copy and  modify it for your own research group.</a></p>
-              <p>We are part of the <a href="https://gzlab.ac.cn">Guangzhou Laboratory</a> and <a href="http://www.gzsys.org.cn/">Sun Yat-sen Memorial Hospital of Sun Yat-sen University</a>.</p>
+      <div class="panel-footer" style='background-color: #333333; color: #eeeeee;'>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
             
-
-		   <p>  </p><p>
-            		  
-            
-		</div>
-		<div class="col-sm-4">
-		  Funding:<br />
-		  - <a href="https://www.nsfc.gov.cn/">NSFC</a> <br />
-		  - <a href="http://www.most.gov.cn/">MOST IT+BT project</a> <br />
-          - <a href="https://gzlab.ac.cn">GZlab starting grant</a><br />
-		  <br>
-		  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-		  <!--<span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;<span id="busuanzi_container_site_uv"><strong>: <a href=""><span id="busuanzi_value_site_uv"></span></strong></a> </span> &nbsp;&nbsp;
-		  !--><span class="glyphicon glyphicon-eye-open"></span>&nbsp;&nbsp;<span id="busuanzi_container_site_pv"><strong>: <a href=""><span id="busuanzi_value_site_pv"></span></strong></a> </span>
-
-		</div>
-		<div class="col-sm-4">
-		  Contact:<br />
-		  Building B2, Guangzhou Laboratory<br />
-		  96 Xingdao South Road, Guangzhou International Bio Island, <br />
-		  Haizhu District, Guangzhou, Guangdong,<br />
-		  China. <br />
+          <p>&copy 2024 GZNL-RDC. </p>
+          <p>We are part of the <a href="https://gzlab.ac.cn">Guangzhou Laboratory</a> and <a href="http://www.rnacentre.org/">RNAcentre</a> and <a href="http://www.gzsys.org.cn/">Sun Yat-sen University</a>.</p>
+          <p>Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="{{ site.url }}{{ site.baseurl }}/aboutwebsite.html">copy and  modify it for your own research group</a>.</p>
+          <p>  </p>
+          <p>  </p>
+          </div>
+          
+          <div class="col-sm-4">
+          Funding:<br />
+          - <a href="https://gzlab.ac.cn">R&D Programs of Guangzhou Laboratory</a><br />
+          - <a href="http://www.most.gov.cn/">MOST IT+BT projects</a> <br />
+          - <a href="https://www.nsfc.gov.cn/">NSFC</a> <br />	  
+          <br>
+          <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+          <!--<span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;<span id="busuanzi_container_site_uv"><strong>: <a href=""><span id="busuanzi_value_site_uv"></span></strong></a> </span> &nbsp;&nbsp;
+          !--><span class="glyphicon glyphicon-eye-open"></span>&nbsp;&nbsp;<span id="busuanzi_container_site_pv">: <a href="" ><span id="busuanzi_value_site_pv"></span></a> </span>
+          </div>
+          
+          <div class="col-sm-4">
+          Contact:<br />
+          Building B2, Guangzhou National Laboratory<br />
+          96 Xingdao South Road, Guangzhou International Bio Island, <br />
+          Haizhu District, Guangzhou, Guangdong, China.<br />
           (<a href="https://goo.gl/maps/hDLr6siEAS2Eaypt8">Maps</a>)
-		</div>
-	  </div>
-	</div>
-  </div>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://www.ribocentre.org/js/bootstrap.min.js"></script>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
 
 
   </body>
