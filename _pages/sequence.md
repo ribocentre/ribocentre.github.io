@@ -22,5 +22,5 @@ permalink: /sequence/
             ]'
             rfam="true"
     />
-  <script type="text/javascript" src="https://www.ribocentre.org/js/RNAcentral-sequence-search.js"></script></body>
+  <script type="text/javascript" src="https://rnacentral.github.io/rnacentral-sequence-search-embed/dist/RNAcentral-sequence-search.js"></script></body>
 </html>
